@@ -1,0 +1,28 @@
+-- credits to ipinghei#1988
+
+while true do
+local cars1 = {
+    [1] = "Perodua Myvi"
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(cars1))
+
+local cars2 = {
+    [1] = "1985 Proton Saga Magma"
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(cars2))
+
+local cars3 = {
+    [1] = "Nissan Silvia S15"
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(cars3))
+
+local cars4 = {
+    [1] = "1998 Toyota Supra RZ"
+}
+
+game:GetService("ReplicatedStorage").SpawnCar:FireServer(unpack(cars4))
+wait(1)
+end
